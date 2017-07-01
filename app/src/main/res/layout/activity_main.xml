@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.android.runapp.MainActivity">
+
+    <TextView
+        style="@style/mainTV"
+        android:text="@string/city_info"
+        android:id="@+id/cityTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <TextView
+        style="@style/mainTV"
+        android:text="@string/art_info"
+        android:id="@+id/artTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <TextView
+        style="@style/mainTV"
+        android:text="@string/history_info"
+        android:id="@+id/historyTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <TextView
+        style="@style/mainTV"
+        android:text="@string/food_info"
+        android:id="@+id/foodTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>
